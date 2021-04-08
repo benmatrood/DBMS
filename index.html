@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet 1</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section id="hero" class="main-header ">
+        <div class="container"> 
+            <div class="hero-content">
+                <a href="#info" class="header-btn ">Comprendre les DBMS</a>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="info" class="main-info"> 
+       <div class="container">
+       <h1 class="titre-info1">Qu'est ce que le DBMS</h1>
+       </div>
+       <div class="info1-description">
+           <p> Le système de gestion de base de données ou DBMS fait référence à la technologie de stockage et de récupération des données des utilisateurs avec la plus grande efficacité ainsi que des mesures de sécurité appropriées. Ce didacticiel explique les bases du DBMS telles que son architecture, les modèles de données, les schémas de données, l'indépendance des données,le modèle de relation, la conception de base de données relationnelle, le stockage et la structure des fichiers et bien plus encore</p>
+       </div>
+       <div class ="info1-description">
+           <h1>Applications du DBMS</h1>
+           <p>La base de données est une collection de données connexes et les données sont une collection de faits et de chiffres qui peuvent être traités pour produire des informations.La plupart des données représentent des faits enregistrables. Les données aident à produire des informations basées sur des faits. Par exemple, si nous avons des données sur les notes obtenues par tous les élèves, nous pouvons alors conclure sur les meilleurs et les notes moyennes.Un système de gestion de base de données stocke les données de telle manière qu'il devient plus facile de récupérer, manipuler et produire des informations. Voici les caractéristiques et applications importantes du DBMS.
+
+        </p>
+       </div>
+       <div>
+           <h2>1) Spécificité</h2>
+           <p class="info1-description">Un DBMS moderne est plus réaliste et utilise des entités du monde réel pour concevoir son architecture. Il utilise également le comportement et les attributs. Par exemple, une base de données scolaire peut utiliser les élèves comme une entité et leur âge comme un attribut.</p>
+       </div>
+       <div>
+        <h2>2) Accès multi-utilisateur et simultané</h2>
+        <p class="info1-description">Le DBMS prend en charge l'environnement multi-utilisateur et leur permet d'accéder et de manipuler des données en parallèle. Bien qu'il existe des restrictions sur les transactions lorsque les utilisateurs tentent de traiter le même élément de données, mais les utilisateurs n'en sont toujours pas conscients.</p>
+    </div>
+    <div>
+        <h2>3) Vues multiples</h2>
+        <p class="info1-description">Le DBMS offre plusieurs vues pour différents utilisateurs. Un utilisateur qui est dans le département des ventes aura une vue de la base de données différente de celle d'une personne travaillant dans le département de production. Cette fonctionnalité permet aux utilisateurs d'avoir une vue concentrée de la base de données en fonction de leurs besoins.</p>
+    </div>
+    <div>
+        <h2>4) La Sécurité</h2>
+        <p class="info1-description">Des fonctionnalités telles que les vues multiples offrent une sécurité dans une certaine mesure où les utilisateurs ne peuvent pas accéder aux données d'autres utilisateurs et services. Le DBMS propose des méthodes pour imposer des contraintes lors de la saisie des données dans la base de données et de leur récupération à un stade ultérieur.</p>
+    </div>
+    <div class ="info1-description">
+        <h1>Cible & Condition préalabe</h1>
+        <p>Ce didacticiel DBMS aidera particulièrement les diplômés en informatique à comprendre les concepts de base à avancés liés aux systèmes de gestion de base de données.Pour les conditions préalables Avant de commencer ce didacticiel, il est recommandé de bien comprendre les concepts informatiques de base tels que la mémoire principale, la mémoire secondaire et les structures de données et les algorithmes.</p>
+    </div><br>
+    <div class ="info1-description">
+        <h1>Les types de DBMS</h1>
+        <p>Il existe plus de 300 systèmes répartis en 5 niveaux .</p>
+    </div>
+    <div>
+        <h2>Niveau 1: omniprésent, utilisé partout et par tous : DBMS relationnel (RDBMS)</h2>
+        <p class="info1-description">Exemples de systèmes: Microsoft Access et MySQL
+
+            Exemples d'utilisateurs: Codebots (et 99% des applications et sites Web)
+            
+            Un RDBMS est comme un tableur. Les données sont organisées en classeurs de tables contenant des colonnes et des lignes. La terminologie d'un RDBMS est des bases de données d'entités caractérisées par leurs attributs et leurs enregistrements.
+            
+            Les schémas sont la caractéristique déterminante des bases de données relationnelles. Les schémas définissent les relations entre les entités et la mise en forme dans les enregistrements d'attributs.</p>
+    </div>
+    <div>
+        <h2>Niveau 2: Magasins de documents</h2>
+        <p class="info1-description">Exemples de systèmes: MongoDB
+
+            Exemples d'utilisateurs: Scratchpad d'Expedia
+
+Aussi connus sous le nom de systèmes de base de données orientés document, les magasins de documents (comme les feuilles de calcul) n'ont pas de schéma. Cela signifie que les enregistrements peuvent être non uniformes et / ou avoir une structure imbriquée et que les valeurs peuvent être stockées sous forme de tableaux.
+
+Les magasins de documents sont un exemple majeur de base de données NoSQL. Ce type de DBMS gagne en popularité à mesure que des solutions à des défis spécifiques de gestion des données se présentent.</p>
+    </div>
+    <div>
+        <h2>Niveau 3: DBMS graphique</h2>
+        <p class="info1-description">Exemples de systèmes: Neo4j et Microsoft Azure Cosmos DB
+
+            Exemple d'utilisateurs: Ebay
+            
+            Aussi connu sous le nom de DBMS orienté graphe ou base de données de graphes, un DBMS graphe est basé autour de structures de nœuds et d'arêtes. Les arêtes définissent les relations entre les nœuds. Ces bases de données sont conçues pour rendre efficacement des représentations visuelles des données.</p>
+    </div>
+    <div>
+        <h2>Niveau 4: DBMS orienté objet</h2>
+        <p class="info1-description">Exemples de systèmes: Db4o
+
+            Un DBMS orienté objet suit un modèle de données orienté objet avec des classes, des propriétés et des méthodes. Un objet est toujours géré dans son intégralité. Cela signifie, par exemple, que la création d'un objet, qui dans un système relationnel serait probablement stocké sur plusieurs tables, sera effectuée automatiquement, comme une transaction atomique, et sans aucune action du programme d'application.
+
+        </p>
+    </div>
+    <div>
+        <h2>Niveau 5: DBMS de navigation</h2>
+        <p class="info1-description">Exemples de systèmes: IMS et IDMS
+
+            Le terme DBMS de navigation décrit une classe de systèmes de gestion de base de données dans laquelle les données ne sont accessibles que via des enregistrements liés.
+            
+            Ce modèle a été développé dans les années 1960 et a été le premier DBMS capable de gérer de grandes quantités de données. En fonction de la flexibilité de la liaison, les systèmes peuvent être sous-regroupés en DBMS hiérarchiques et DBMS réseau. Ces deux sous-classes ont été largement remplacées par le RDBMS.
+
+        </p>
+    </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
