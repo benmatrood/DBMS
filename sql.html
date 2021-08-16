@@ -1,153 +1,212 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projet 1</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>FlexStart Bootstrap Template - Index</title>
+  <meta content="" name="description">
+
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+
 </head>
+
 <body>
-    <section id="hero" class="main-header ">
-        <div class="container"> 
-            <div class="hero-content">
-                    <h1 class="text-white">DBMS ET LE LANGUAGE SQL</h1>
-                    <div class="d-grid gap-2 d-md-block text-center">
-                        <button class="btn btn-warning mx-3" type="button"><a href="index.html">Le DBMS</a></button>
-                        <button class="btn btn-info" type="button"><a href="#info">Language SQL</a> </button>
-                      </div>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/logo.png" alt="">
+        <span>Veille</span>
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="index.html">Base de donnée</a></li>
+          <li><a class="nav-link scrollto" href="sgbd.html">Sgbd</a></li>
+          <li><a class="nav-link scrollto" href="sql.html">Langage sql</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero d-flex align-items-center">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center">
+          <h1 data-aos="fade-up">Tout savoir sur les bases de données, les systèmes de gestion de bases de données et le langage SQL</h1>
+          <!-- <h2 data-aos="fade-up" data-aos-delay="400">We are team of talented designers making websites with Bootstrap</h2> -->
+          <div data-aos="fade-up" data-aos-delay="600">
+            <div class="text-center text-lg-start">
+              <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                <span>Commencer</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
             </div>
+          </div>
         </div>
-    </section>
-    <section id="info" class="main-info"> 
-        <div class="container">
-        <h1 class="titre-info1">Présentation de SQL</h1>
+        <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
+          <img src="assets/img/hero-img.png" class="img-fluid" alt="">
         </div>
-        <div class="info1-description">
-            <p>SQL est un langage de programmation pour les bases de données relationnelles. Il est conçu sur l'algèbre relationnelle et le calcul relationnel tuple. SQL est fourni sous forme de package avec toutes les principales distributions de SGBDR.
-                SQL comprend à la fois des langages de définition de données et de manipulation de données. En utilisant les propriétés de définition de données de SQL, on peut concevoir et modifier un schéma de base de données, tandis que les propriétés de manipulation de données permettent à SQL de stocker et de récupérer des données à partir de la base de données        </div>
-        <div class ="info1-description">
-            <h1>Langage de définition de données</h1>
-            <p>SQL utilise un ensemble de commandes  pour définir le schéma de la base de données :<br>
+      </div>
+    </div>
 
-                
-                Pour Crée de nouvelles bases de données, tables et vues à partir du SGBDR.<br> <br>
-                
-                <samp >Create database tutorialspoint;</samp><br>
-                <samp >Create table article;</samp><br>
-                <samp >Create view for_students;</samp><br><br>
+  </section><!-- End Hero -->
 
-                Pour  Supprime les commandes, les vues, les tables et les bases de données du SGBDR.<br><br>
-                
-                <samp >Drop object_type object_name;</samp><br>
-                <samp >Drop database tutorialspoint;</samp><br>
-                <samp >Drop table article;</samp><br>
-                <samp >Drop view for_students;</samp><br><br>
+  <main id="main">
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
 
-                Pour Modifie le schéma de la base de données.<br><br>
-                
-                <samp >Alter object_type object_name parameters;</samp><br>
-                
-                <samp >Alter table article add subject varchar;</samp><br>
-                
-                Cette commande ajoute un attribut dans la relation article avec le nom sujet de type chaîne.<br><br>
-                
-                <h1>Langage de manipulation des données</h1> <br>
-                SQL est équipé d'un langage de manipulation de données (DML). DML modifie l'instance de base de données en insérant, mettant à jour et supprimant ses données. DML est responsable de toutes les modifications de données de formulaires dans une base de données. SQL contient l'ensemble de commandes suivant dans sa section DML :<br><br>
-                
-                <samp >SELECT/FROM/WHERE</samp<br>>
-                <samp >INSERT INTO/VALUES</samp><br>
-                <samp >UPDATE/SET/WHERE</samp><br>
-                <samp >DELETE FROM/WHERE</samp><br>
+      <div class="container" data-aos="fade-up">
+        <div class="row gx-0">
 
-                Ces constructions de base permettent aux programmeurs et aux utilisateurs de bases de données d'entrer des données et des informations dans la base de données et de les récupérer efficacement à l'aide d'un certain nombre d'options de filtrage.<br><br>
-                
-                SELECT/FROM/WHERE<br>
-                SELECT - C'est l'une des commandes de requête fondamentales de SQL. Elle est similaire à l'opération de projection de l'algèbre relationnelle. Il sélectionne les attributs en fonction de la condition décrite par la clause WHERE.<br>
-                
-                FROM - Cette clause prend un nom de relation comme argument à partir duquel les attributs doivent être sélectionnés/projetés. Dans le cas où plus d'un nom de relation est donné, cette clause correspond au produit cartésien.<br>
-                
-                WHERE - Cette clause définit le prédicat ou les conditions, qui doivent correspondre afin de qualifier les attributs à projeter.<br>
-                
-                Exemple :<br><br>
-                
-                Select author_name<br>
-                From book_author<br>
-                Where age > 50;<br>
-                Cette commande renverra les noms des auteurs de la relation book_author dont l'âge est supérieur à 50 ans.<br><br>
-                
-                INSERT INTO/VALUES<br>
-                Cette commande permet d'insérer des valeurs dans les lignes d'un tableau (relation).<br><br>
-                
-                Syntaxe :<br><br>
-                
-                INSERT INTO table (column1 [, column2, column3 ... ]) VALUES (value1 [, value2, value3 ... ])<br>
-                Ou alors<br><br>
-                
-                INSERT INTO table VALUES (value1, [value2, ... ])<br>
+          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="content">
+              <!-- <h3>Who We Are</h3> -->
+              <h2>Qu’est-ce que le SQL</h2>
+              <p>
+                Le SQL (Structured Query Language) est un langage de programmation standardisé utilisé pour gérer les bases de données relationnelles et effectuer différentes opérations sur les données qu’elles contiennent. Ce langage a été créé dans les années 70, et continue d’être utilisé régulièrement par les administrateurs de bases de données. Les développeurs qui rédgient des scripts d’intégration de données et les analystes de données l’utilisent aussi pour lancer des requêtes analytiques.</p>
+              <div class="text-center text-lg-start">
+                <a href="https://fr.wikipedia.org/wiki/Base_de_donn%C3%A9es" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
+                  <span>En savoir plus</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/sql.png" class="img-fluid" alt="">
+          </div>
+
+        </div>
+      </div>
+
+    </section><!-- End About Section -->
+    <section id="about" class="about">
+
+      <div class="container" data-aos="fade-up">
+        <div class="row gx-0">
+          <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/ut.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="content">
+              <!-- <h3>Who We Are</h3> -->
+              <h2>Utilité du sql</h2>
+              <p>
+                Pour communiquer avec les données d’un site web.2/ Les requêtes SQL
+                Il existe plusieurs requêtes. Ce sont: <br>
+                SELECT : Sélection de données,<br>
+                JOIN : Jointure de plusieurs sources,<br>
+                INSERT : Insertion de données,<br>
+                DELETE : Suppression de données,<br>
+                UPDATE : Mise à jour de données existantes.<br>
                 </p>
+              <div class="text-center text-lg-start">
+                <a href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Requ%C3%AAtes_SQL" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
+                  <span>En savoir plus</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
-        <div>
-            <h2>1) Les formes normales</h2>
-            <p class="info1-description">Les formes normales ont pour objectif de définir la décomposition des schémas relationnels, tout en préservant les DF et sans perdre d'informations, afin de représenter les objets et associations canoniques du monde réel de façon non redondante.
+      </div>
 
-                On peut recenser les 6 formes normales suivantes, de moins en moins redondantes : <br>
-                
-                la première forme normale<br>  
-                
-                la deuxième forme normale<br>
-                
-                la troisième forme normale<br>
-                
-                la forme normale de Boyce-Codd<br>
-                
-                la quatrième forme normale<br>
-                
-                la cinquième forme normale<br>
+    </section><!-- End About Section -->
+
+    <!-- ======= Values Section ======= -->
+    <section id="values" class="values">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <p>Quelque commande utile</p>
+        </header>
+        <div class="col-lg-12">
+          <img src="assets/img/Cap.png" class="img-fluid" alt="">
         </div>
-        <div>
-        <h2>1FN – Première forme normale</h2>
-        <p class="info1-description">Est en première forme normale, une relation (ayant par définition une clé) dont les attributs possèdent tous une valeur sémantiquement atomique    </div>
-    <div>
-        <h2>2FN – Deuxième forme normale</h2>
-        <p class="info1-description">la relation respectant la première forme normale et respectant le principe suivant :
-            Les attributs d’une relation sont divisés en deux groupes : le premier groupe est composé de la clé (un ou plusieurs attributs). Le deuxième groupe est composé des autres attributs (éventuellement vide). La deuxième forme normale stipule que tout attribut du deuxième groupe ne peut pas dépendre d’un sous-ensemble (strict) d’attribut(s) du premier groupe. En d’autres termes : « Un attribut non clé ne dépend pas d’une partie de la clé mais de toute la clé. »    </div>
-    <div>
-        <h2>3FN – Troisième forme normale</h2>
-        <p class="info1-description">Les attributs d’une relation sont divisés en deux groupes : le premier groupe est composé de la clé (un ou plusieurs attributs). Le deuxième groupe est composé des autres attributs (éventuellement vide). La troisième forme normale stipule que tout attribut du deuxième groupe ne peut pas dépendre d’un sous-ensemble (strict et excluant l’attribut considéré) d’autres attribut(s) du second groupe. En d’autres termes : « Un attribut non clé ne dépend pas d’un ou plusieurs attributs ne participant pas à la clé ». Dit encore autrement : « Tous les attributs non clé doivent dépendre directement de la clé, au sens où il n’y a aucun attribut non clé dépendant de la clé par dépendances transitives par l’intermédiaire d’autres attributs non clé ».    </div>
-    <div class ="info1-description">
-        <h1>FNBC – Forme normale de Boyce-Codd</h1>
-        <p>la relation respectant la troisième forme normale et dont tous les attributs non-clé (hormis les clés candidates qui sont neutres et ne doivent pas être considérées) ne sont pas source de dépendance fonctionnelle (DF) pour une partie de la clé.
+        <div class="col-lg-12">
+          <!-- <img src="assets/img/Cap1.png" class="img-fluid" alt=""> -->
+        </div>
+        <div class="col-lg-12">
+          <img src="assets/img/Cap2.png" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-12">
+          <img src="assets/img/Capt.png" class="img-fluid" alt="">
+        </div>
 
-            Le non-respect de la 2FN, 3FN et la FNBC entraîne de la redondance, une même donnée étant répétée un nombre considérable de fois.    </div><br>
-    <div class ="info1-description">
-        <h1>4FN - quatrième forme normale</h1>
-        <p>Pour être en 4FN, il faut respecter la 3FN (et non nécessairement la FNBC).
+      
+      </div>
 
-            Pour toute relation de dimension n (avec n supérieur à 1) en forme normale de Boyce-Codd, les relations de dimension n − 1 construites sur sa collection doivent avoir un sens. Il ne doit pas être possible de reconstituer les occurrences de la relation de dimension n par jointure de deux relations de dimension n − 1. Cette normalisation conduit parfois à décomposer une relation complexe en deux relations plus simples.</p>
-    </div>
-    <div>
-        <h2>5FN - cinquième forme normale</h2>
-        <p class="info1-description">Pour toute relation de dimension n (avec n supérieur à 2) en quatrième forme normale, il ne doit pas être possible de retrouver l’ensemble de ses occurrences par jointure sur les occurrences des relations partielles prises deux à deux. Cette normalisation conduit parfois à décomposer une relation complexe en plusieurs relations plus simples.
+    </section><!-- End Values Section -->
 
-            Le non-respect de la 4FN et 5FN entraîne de la perte de données et les données manquent de précision.</p>
-    </div>
-    <div>
-        <h2>Niveau 2: Magasins de documents</h2>
-        <p class="info1-description">Exemples de systèmes: MongoDB
-            Exemples d'utilisateurs: Scratchpad d'Expedia
-            Aussi connus sous le nom de systèmes de base de données orientés document, les magasins de documents (comme les feuilles de calcul) n'ont pas de schéma. Cela signifie que les enregistrements peuvent être non uniformes et / ou avoir une structure imbriquée et que les valeurs peuvent être stockées sous forme de tableaux.
-            Les magasins de documents sont un exemple majeur de base de données NoSQL. Ce type de DBMS gagne en popularité à mesure que des solutions à des défis spécifiques de gestion des données se présentent.</p>
-    </div>
-    <div>
-        <h2>FNDC - forme normale domaine clé</h2>
-        <p class="info1-description">Une relation est en FNDC si et seulement si toutes les contraintes sont la conséquence logique des contraintes de domaines et des contraintes de clés qui s’appliquent à la relation.
-
-            Pour se souvenir de l’ordre et des caractéristiques des trois premières formes normales, il suffit de se rappeler le serment que tous les témoins doivent prêter devant la justice : Je jure de dire la vérité, toute la vérité, rien d’autre que la vérité.
-            
-            Ce qui donne : 1FN = La clé. 2FN = Toute la clé. 3FN = Rien que la clé.  </div>
+    <!-- ======= Counts Section ======= -->
   
-    </section> 
+
+  
+ 
+
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Veille</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+      
+        Designed by <a href="https://bootstrapmade.com/">Ben yaya</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
+
 </html>

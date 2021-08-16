@@ -1,98 +1,469 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projet 1</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>FlexStart Bootstrap Template - Index</title>
+  <meta content="" name="description">
+
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+
 </head>
+
 <body>
-    <section id="hero" class="main-header ">
-        <div class="container"> 
-            <div class="hero-content">
-                    <h1 class="text-white">DBMS ET LE LANGUAGE SQL</h1>
-                    <div class="d-grid gap-2 d-md-block text-center">
-                        <button class="btn btn-warning mx-3" type="button"><a href="#info">Le DBMS</a></button>
-                        <button class="btn btn-info" type="button"><a href="sql.html">Language SQL</a> </button>
-                      </div>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/logo.png" alt="">
+        <span>Veille</span>
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="index.html">Base de donnée</a></li>
+          <li><a class="nav-link scrollto" href="sgbd.html">Sgbd</a></li>
+          <li><a class="nav-link scrollto" href="sql.html">Langage sql</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero d-flex align-items-center">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center">
+          <h1 data-aos="fade-up">Tout savoir sur les bases de données, les systèmes de gestion de bases de données et le langage SQL</h1>
+          <!-- <h2 data-aos="fade-up" data-aos-delay="400">We are team of talented designers making websites with Bootstrap</h2> -->
+          <div data-aos="fade-up" data-aos-delay="600">
+            <div class="text-center text-lg-start">
+              <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                <span>Commencer</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
             </div>
+          </div>
         </div>
+        <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
+          <img src="assets/img/hero-img.png" class="img-fluid" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+
+      <div class="container" data-aos="fade-up">
+        <div class="row gx-0">
+
+          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="content">
+              <!-- <h3>Who We Are</h3> -->
+              <h2>Qu’est-ce qu’une base de données ?</h2>
+              <p>
+                Une base de données (que nous nommerons BDD par commodité) est une collection d’informations organisées afin d’être facilement consultables, gérables et mises à jour. Au sein d’une database, les données sont organisées en lignes, colonnes et tableaux. Elles sont indexées afin de pouvoir facilement trouver les informations recherchées à l’aide d’un logiciel informatique. Chaque fois que de nouvelles informations sont ajoutées, les données sont mises à jour, et éventuellement supprimées.</p>
+              <div class="text-center text-lg-start">
+                <a href="https://fr.wikipedia.org/wiki/Base_de_donn%C3%A9es" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
+                  <span>En savoir plus</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/10.jpg" class="img-fluid" alt="">
+          </div>
+
+        </div>
+      </div>
+
+    </section><!-- End About Section -->
+    <section id="about" class="about">
+
+      <div class="container" data-aos="fade-up">
+        <div class="row gx-0">
+          <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/bdd.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="content">
+              <!-- <h3>Who We Are</h3> -->
+              <h2>Comment fonctionnent les bases de données ?</h2>
+              <p>
+                Les bases de données sont stockées sous forme de fichiers ou d’ensemble de fichiers sur un disque magnétique, une cassette, un disque optique ou tout autre type d’appareil de stockage. Les bases de données traditionnelles (hiérarchiques) sont organisées par champs (fields), enregistrements et fichiers. Un champ est une seule pièce d’information. Un enregistrement est un ensemble de champs. Un fichier est une collection d’enregistrements.</p>
+              <div class="text-center text-lg-start">
+                <a href="https://fr.wikipedia.org/wiki/Base_de_donn%C3%A9es" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
+                  <span>En savoir plus</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- End About Section -->
+
+  
+
+    <!-- ======= Counts Section ======= -->
+  
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features">
+
+      <div class="container" data-aos="fade-up">
+
         
-    </section>
-    <section id="info" class="main-info"> 
-        <div class="container">
-        <h1 class="titre-info1">Qu'est ce que le DBMS</h1>
+
+        <!-- Feature Tabs -->
+        <div class="row feture-tabs" data-aos="fade-up">
+          <div class="col-lg-6">
+            <h3>Les différents types de bases de données</h3>
+
+            <!-- Tabs -->
+            <ul class="nav nav-pills mb-3">
+              <li>
+                <a class="nav-link active" data-bs-toggle="pill" href="#tab1">Groupe 1</a>
+              </li>
+              <li>
+                <a class="nav-link" data-bs-toggle="pill" href="#tab2">Groupe 2</a>
+              </li>
+              <li>
+                <a class="nav-link" data-bs-toggle="pill" href="#tab3">Groupe 3</a>
+              </li>
+            </ul><!-- End Tabs -->
+
+            <!-- Tab Content -->
+            <div class="tab-content">
+              <div class="tab-pane fade show active" id="tab1">
+               <div class="d-flex align-items-center mb-2">
+                  <i class="bi bi-check2"></i>
+                  <h4>Base de données hiérarchique</h4>
+                </div>
+                <p>Les bases de données hiérarchiques comptent parmi les plus anciennes bases de données. Au sein de cette catégorie, les enregistrements sont organisés dans une structure d’arborescence. Chaque niveau d’enregistrements découle sur un ensemble de catégories plus petites.</p>
+                <div class="d-flex align-items-center mb-2">
+                  <i class="bi bi-check2"></i>
+                  <h4>Base de données réseau</h4>
+                </div>
+                <p>Les bases de données réseau sont également parmi les plus anciennes. Plutôt que de proposer des liens uniques entre différents ensembles de données à divers niveaux, les bases de données réseaux créent des liens multiples entre les ensembles en plaçant des liens, ou des pointeurs, sur un ensemble d’enregistrements ou un autre. La vitesse et la polyvalence des bases de données réseau ont conduit à une adoption massive de ce type de databases au sein des entreprises ou dans le domaine du e-commerce.</p>
+                <div class="d-flex align-items-center mb-2">
+                  <i class="bi bi-check2"></i>
+                  <h4>Base de données orientée texte</h4>
+                </div>
+                <p>Une database orientée texte, ou flat file database, se présente sous la forme d’un fichier (une table) au format .txt ou .ini. Un fichier plat est un fichier texte, ou un fichier combinant du texte avec un fichier binaire. En général, dans ces bases de données, chaque ligne ne comporte qu’un enregistrement.La plupart des bases de données pour PC sont des bases de données orientées texte.</p>
+              </div><!-- End Tab 1 Content -->
+              <div class="tab-pane fade show" id="tab2">
+                <div class="d-flex align-items-center mb-2">
+                  <i class="bi bi-check2"></i>
+                  <h4>Base de données SQL (relationnelle)</h4>
+                </div>
+                <p>Les bases de données relationnelles sont constituées d’un ensemble de tableaux. Au sein de ces tableaux, les données sont classées par catégorie. Chaque tableau comporte au moins une colonne correspondant à une catégorie. Chaque colonne comporte un certain nombre de données correspondant à cette catégorie.</p>
+                <div class="d-flex align-items-center mb-2">
+                  <i class="bi bi-check2"></i>
+                  <h4>Base de données distribuée</h4>
+                </div>
+                <p>Une BDD distribuée est une database dont certaines portions sont stockées à plusieurs endroits physiques. Le traitement est réparti ou répliqué entre différents points d’un réseau.</p>
+                <div class="d-flex align-items-center mb-2">
+                  <i class="bi bi-check2"></i>
+                  <h4> Base de données cloud</h4>
+                </div>
+                <p>Dans ce cadre, elle est optimisée ou directement créée pour les environnements virtualisés. Il peut s’agir d’un cloud privé, d’un cloud public ou d’un cloud hybride.</p>
+              </div><!-- End Tab 2 Content -->
+
+              <div class="tab-pane fade show" id="tab3">
+                <div class="d-flex align-items-center mb-2">
+                  <i class="bi bi-check2"></i>
+                  <h4>Base de données NoSQL</h4>
+                </div>
+                <p>Les bases de données NoSQL sont utiles pour les larges ensembles de données distribuées. En effet, les bases de données relationnelles ne sont pas conçues pour le Big Data, et les ensembles de données trop larges peuvent poser des problèmes de performances.</p>
+                <div class="d-flex align-items-center mb-2">
+                  <i class="bi bi-check2"></i>
+                  <h4>Base de données orientée objets</h4>
+                </div>
+                <p>Les objets créés à l’aide de langage de programmation orientés objets sont généralement stockés sur des bases de données relationnelles. Toutefois, en réalité, les bases de données orientées objets sont plus adaptées pour stocker ce type de contenu.</p>
+                <div class="d-flex align-items-center mb-2">
+                  <i class="bi bi-check2"></i>
+                  <h4>Base de données orientée graph</h4>
+                </div>
+                <p>Une base de données orientée graphe, ou graphe, est un type de database NoSQL utilisant la théorie des graphes pour stocker, cartographier et effectuer des requêtes sur les relations entre les données. Les bases de données graphe sont constituées de noeuds et de bords.</p>
+                
+              </div><!-- End Tab 3 Content -->
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+            <img src="assets/img/features-2.png" class="img-fluid" alt="">
+          </div>
+
+        </div><!-- End Feature Tabs -->
+
+        <!-- Feature Icons -->
+        <div class="row feature-icons" data-aos="fade-up">
+          <h3>Les types de modèles de données</h3>
+
+          <div class="row">
+
+            <div class="col-xl-4 text-center" data-aos="fade-right" data-aos-delay="100">
+              <img src="assets/img/features-3.png" class="img-fluid p-4" alt="">
+            </div>
+
+            <div class="col-xl-8 d-flex content">
+              <div class="row align-self-center gy-4">
+
+                <div class="col-md-6 icon-box" data-aos="fade-up">
+                  <i class="ri-line-chart-line"></i>
+                  <div>
+                    <h4>Entité </h4>
+                    <p>Une entité est une notion en rapport avec le domaine d'activité pour lequel la base de données est utilisée, et concernant lequel des données sont enregistrées (exemple : des personnes, des produits, des commandes, des réservations…)</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+                  <i class="ri-stack-line"></i>
+                  <div>
+                    <h4>Attribut</h4>
+                    <p>Un attribut est une caractéristique d'une entité.
+
+                      Par exemple, une personne (entité), son nom et son adresse (des attributs). Les attributs sont également appelés des champs ou des colonnes. Dans le schéma les entités sont décrites comme un lot d'attributs en rapport avec un sujet.
+                      </p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+                  <i class="ri-brush-4-line"></i>
+                  <div>
+                    <h4>Association</h4>
+                    <p>Les associations désignent les liens qui existent entre différentes entités, par exemple, entre un vendeur, un client et un magasin.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+                  <i class="ri-command-line"></i>
+                  <div>
+                    <h4>Cardinalité</h4>
+                    <p>La cardinalité est la manière dont les entités sont liées entre elles.  Elles sont caractérisée par un couple d'entiers (x,y) tel que, x représente le nombre minimum d'instances de l'association pouvant exister pour une instance donnée de l'entité .</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div><!-- End Feature Icons -->
+
+      </div>
+
+    </section><!-- End Features Section -->
+    <section id="about" class="about">
+
+      <div class="container" data-aos="fade-up">
+        <div class="row gx-0">
+
+          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="content">
+              <!-- <h3>Who We Are</h3> -->
+              <h2>clé primaire</h2>
+              <p>
+                
+                Dans les modèles de données relationnels, la clé primaire est un attribut dont le contenu est différent pour chaque enregistrement de la table, ce qui permet de retrouver un et un seul enregistrement
+                 </div>
+          </div>
+
+          
+          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="content">
+              <!-- <h3>Who We Are</h3> -->
+              <h2>clé étrangère</h2>
+              <p>
+                
+                Dans les modèles de données relationnels, une clé étrangère est un attribut qui contient une référence à une donnée connexe - dans les faits la valeur de la clé primaire de la donnée connexe
+                </div>
+          </div>
+
         </div>
-        <div class="info1-description">
-            <p> Le système de gestion de base de données ou DBMS fait référence à la technologie de stockage et de récupération des données des utilisateurs avec la plus grande efficacité ainsi que des mesures de sécurité appropriées. Ce didacticiel explique les bases du DBMS telles que son architecture, les modèles de données, les schémas de données, l'indépendance des données,le modèle de relation, la conception de base de données relationnelle, le stockage et la structure des fichiers et bien plus encore</p>
+      </div>
+
+    </section><!-- End About Section -->
+    <!-- ======= F.A.Q Section ======= -->
+    <section id="faq" class="faq">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <p>Les formes normales</p>
+        </header>
+        <br>
+        <p>Les formes normales ont pour objectif de définir la décomposition des schémas relationnels, tout en préservant les DF et sans perdre d'informations, afin de représenter les objets et associations canoniques du monde réel de façon non redondante. On peut recenser les 6 formes normales suivantes, de moins en moins redondantes :
+          la première forme normale,
+          la deuxième forme normale,
+          la troisième forme normale,
+          la forme normale de Boyce-Codd,
+          la quatrième forme normale,
+          la cinquième forme normale.
+          </p>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <!-- F.A.Q List 1-->
+            <div class="accordion accordion-flush" id="faqlist1">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
+                    1FN – Première forme normale
+                  </button>
+                </h2>
+                <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
+                  <div class="accordion-body">
+                    Est en première forme normale, une relation (ayant par définition une clé) dont les attributs possèdent tous une valeur sémantiquement atomique
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
+                    2FN – Deuxième forme normale
+                  </button>
+                </h2>
+                <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
+                  <div class="accordion-body">
+                  La deuxième forme normale stipule que tout attribut du deuxième groupe ne peut pas dépendre d’un sous-ensemble (strict) d’attribut(s) du premier groupe. En d’autres termes : « Un attribut non clé ne dépend pas d’une partie de la clé mais de toute la clé. »
+                </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
+                    3FN – Troisième forme normale
+                  </button>
+                </h2>
+                <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
+                  <div class="accordion-body">
+                    La troisième forme normale stipule que tout attribut du deuxième groupe ne peut pas dépendre d’un sous-ensemble (strict et excluant l’attribut considéré) d’autres attribut(s) du second groupe. En d’autres termes : « Un attribut non clé ne dépend pas d’un ou plusieurs attributs ne participant pas à la clé ». Dit encore autrement : « Tous les attributs non clé doivent dépendre directement de la clé, au sens où il n’y a aucun attribut non clé dépendant de la clé par dépendances transitives par l’intermédiaire d’autres attributs non clé ».
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+
+            <!-- F.A.Q List 2-->
+            <div class="accordion accordion-flush" id="faqlist2">
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-1">
+                    FNBC – Forme normale de Boyce-Codd
+                  </button>
+                </h2>
+                <div id="faq2-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
+                  <div class="accordion-body">
+                    la relation respectant la troisième forme normale et dont tous les attributs non-clé (hormis les clés candidates qui sont neutres et ne doivent pas être considérées) ne sont pas source de dépendance fonctionnelle  pour une partie de la clé.</div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-2">
+                    4FN - quatrième forme normale
+                  </button>
+                </h2>
+                <div id="faq2-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
+                  <div class="accordion-body">
+                    Pour toute relation de dimension n (avec n supérieur à 1) en forme normale de Boyce-Codd, les relations de dimension n − 1 construites sur sa collection doivent avoir un sens. Il ne doit pas être possible de reconstituer les occurrences de la relation de dimension n par jointure de deux relations de dimension n − 1. Cette normalisation conduit parfois à décomposer une relation complexe en deux relations plus simples.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-3">
+                    5FN - cinquième forme normale
+                  </button>
+                </h2>
+                <div id="faq2-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
+                  <div class="accordion-body">
+                    Pour toute relation de dimension n (avec n supérieur à 2) en quatrième forme normale, il ne doit pas être possible de retrouver l’ensemble de ses occurrences par jointure sur les occurrences des relations partielles prises deux à deux.</div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
         </div>
-        <div class ="info1-description">
-            <h1>Applications du DBMS</h1>
-            <p>La base de données est une collection de données connexes et les données sont une collection de faits et de chiffres qui peuvent être traités pour produire des informations.La plupart des données représentent des faits enregistrables. Les données aident à produire des informations basées sur des faits. Par exemple, si nous avons des données sur les notes obtenues par tous les élèves, nous pouvons alors conclure sur les meilleurs et les notes moyennes.Un système de gestion de base de données stocke les données de telle manière qu'il devient plus facile de récupérer, manipuler et produire des informations. Voici les caractéristiques et applications importantes du DBMS.
-        </p>
-        </div>
-        <div>
-            <h2>1) Spécificité</h2>
-            <p class="info1-description">Un DBMS moderne est plus réaliste et utilise des entités du monde réel pour concevoir son architecture. Il utilise également le comportement et les attributs. Par exemple, une base de données scolaire peut utiliser les élèves comme une entité et leur âge comme un attribut.</p>
-        </div>
-        <div>
-        <h2>2) Accès multi-utilisateur et simultané</h2>
-        <p class="info1-description">Le DBMS prend en charge l'environnement multi-utilisateur et leur permet d'accéder et de manipuler des données en parallèle. Bien qu'il existe des restrictions sur les transactions lorsque les utilisateurs tentent de traiter le même élément de données, mais les utilisateurs n'en sont toujours pas conscients.</p>
+
+      </div>
+
+    </section><!-- End F.A.Q Section -->
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Veille</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+      
+        Designed by <a href="https://bootstrapmade.com/">Ben yaya</a>
+      </div>
     </div>
-    <div>
-        <h2>3) Vues multiples</h2>
-        <p class="info1-description">Le DBMS offre plusieurs vues pour différents utilisateurs. Un utilisateur qui est dans le département des ventes aura une vue de la base de données différente de celle d'une personne travaillant dans le département de production. Cette fonctionnalité permet aux utilisateurs d'avoir une vue concentrée de la base de données en fonction de leurs besoins.</p>
-    </div>
-    <div>
-        <h2>4) La Sécurité</h2>
-        <p class="info1-description">Des fonctionnalités telles que les vues multiples offrent une sécurité dans une certaine mesure où les utilisateurs ne peuvent pas accéder aux données d'autres utilisateurs et services. Le DBMS propose des méthodes pour imposer des contraintes lors de la saisie des données dans la base de données et de leur récupération à un stade ultérieur.</p>
-    </div>
-    <div class ="info1-description">
-        <h1>Cible & Condition préalabe</h1>
-        <p>Ce didacticiel DBMS aidera particulièrement les diplômés en informatique à comprendre les concepts de base à avancés liés aux systèmes de gestion de base de données.Pour les conditions préalables Avant de commencer ce didacticiel, il est recommandé de bien comprendre les concepts informatiques de base tels que la mémoire principale, la mémoire secondaire et les structures de données et les algorithmes.</p>
-    </div><br>
-    <div class ="info1-description">
-        <h1>Les types de DBMS</h1>
-        <p>Il existe plus de 300 systèmes répartis en 5 niveaux .</p>
-    </div>
-    <div>
-        <h2>Niveau 1: omniprésent, utilisé partout et par tous : DBMS relationnel (RDBMS)</h2>
-        <p class="info1-description">Exemples de systèmes: Microsoft Access et MySQL
-            Exemples d'utilisateurs: Codebots (et 99% des applications et sites Web)
-            Un RDBMS est comme un tableur. Les données sont organisées en classeurs de tables contenant des colonnes et des lignes. La terminologie d'un RDBMS est des bases de données d'entités caractérisées par leurs attributs et leurs enregistrements.
-            Les schémas sont la caractéristique déterminante des bases de données relationnelles. Les schémas définissent les relations entre les entités et la mise en forme dans les enregistrements d'attributs.</p>
-    </div>
-    <div>
-        <h2>Niveau 2: Magasins de documents</h2>
-        <p class="info1-description">Exemples de systèmes: MongoDB
-            Exemples d'utilisateurs: Scratchpad d'Expedia
-            Aussi connus sous le nom de systèmes de base de données orientés document, les magasins de documents (comme les feuilles de calcul) n'ont pas de schéma. Cela signifie que les enregistrements peuvent être non uniformes et / ou avoir une structure imbriquée et que les valeurs peuvent être stockées sous forme de tableaux.
-            Les magasins de documents sont un exemple majeur de base de données NoSQL. Ce type de DBMS gagne en popularité à mesure que des solutions à des défis spécifiques de gestion des données se présentent.</p>
-    </div>
-    <div>
-        <h2>Niveau 3: DBMS graphique</h2>
-        <p class="info1-description">Exemples de systèmes: Neo4j et Microsoft Azure Cosmos DB
-            Exemple d'utilisateurs: Ebay
-            Aussi connu sous le nom de DBMS orienté graphe ou base de données de graphes, un DBMS graphe est basé autour de structures de nœuds et d'arêtes. Les arêtes définissent les relations entre les nœuds. Ces bases de données sont conçues pour rendre efficacement des représentations visuelles des données.</p>
-    </div>
-    <div>
-        <h2>Niveau 4: DBMS orienté objet</h2>
-        <p class="info1-description">Exemples de systèmes: Db4o
-            Un DBMS orienté objet suit un modèle de données orienté objet avec des classes, des propriétés et des méthodes. Un objet est toujours géré dans son intégralité. Cela signifie, par exemple, que la création d'un objet, qui dans un système relationnel serait probablement stocké sur plusieurs tables, sera effectuée automatiquement, comme une transaction atomique, et sans aucune action du programme d'application.
-        </p>
-    </div>
-    <div>
-        <h2>Niveau 5: DBMS de navigation</h2>
-        <p class="info1-description">Exemples de systèmes: IMS et IDMS
-            Le terme DBMS de navigation décrit une classe de systèmes de gestion de base de données dans laquelle les données ne sont accessibles que via des enregistrements liés.
-            Ce modèle a été développé dans les années 1960 et a été le premier DBMS capable de gérer de grandes quantités de données. En fonction de la flexibilité de la liaison, les systèmes peuvent être sous-regroupés en DBMS hiérarchiques et DBMS réseau. Ces deux sous-classes ont été largement remplacées par le RDBMS.
-        </p>
-    </div>
-    </section>
-    <div class="text-center">
-        <button type="button" href="" class="btn btn-dark"> <a href="sql.html">Language SQL</a>  </button> 
-    </div><br><br>  
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
+
 </html>
